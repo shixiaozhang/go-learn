@@ -1,20 +1,5 @@
-/*
- * @Author: your name
- * @Date: 2021-01-20 22:43:14
- * @LastEditTime: 2021-02-03 22:32:04
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \src\github.dafu.com\goLearn\main.go
- */
-
-/** @Author: your name
- * @Date: 2021-01-20 22:43:14
- * @LastEditTime: 2021-01-21 20:03:21
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \src\hello.go
- */
-package main //?声明 这个文件也就是这个包的类型
+package main 
+//?声明 这个文件也就是这个包的类型
 //?导入语句，必须用双引号
 import (
 	"fmt"
@@ -31,7 +16,7 @@ var name string
 type Iz int
 
 var a Iz = 5
-var all string
+// var all string
 
 const chang = "1"
 const ( //? 这种情况三个fo 都是100
@@ -124,11 +109,11 @@ func main() {
 	for i := 0; i < len(str); i++ { //?byte
 		fmt.Printf("%v (%c)", str[i], str[i])
 	}
-	fmt.Println("\n 遍历数组 \n")
+	// fmt.Println("\n 遍历数组 \n")
 	for _, v := range str {
 		fmt.Printf("%v (%c)", v, v)
 	}
-	fmt.Println("\n 遍历数组 \n")
+	// fmt.Println("\n 遍历数组 \n")
 
 	s12 := "big"
 	//? 强制类型转换

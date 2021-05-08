@@ -2,7 +2,7 @@
 
  * @Author: your name
  * @Date: 2021-01-20 22:53:02
- * @LastEditTime: 2021-01-25 22:33:12
+ * @LastEditTime: 2021-05-08 14:15:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \src\github.dafu.com\goLearn\go笔记.md
@@ -26,9 +26,12 @@ go env -w GOPROXY=https://goproxy.cn,direct
 
 
 
+# 初始化模块
 
+使用Go模块初始化项目名称。
+
+go mod init goapp1
 # 配置代码片段快捷键
-
 
 ```go
 Ctrl/Command+Shift+P,按下图输入>snippets
@@ -98,7 +101,7 @@ Windows下编译Mac平台64位可执行程序：
 
 # Println 与 Printf 的区别，以及 Printf 的详细用法：
 
-Println :可以打印出字符串，和变量
+Println :可以打印出字符串，和变量，打印的每一项之间都会有空行，Print 没有
 
 ```
  f.Println("hello","world","hello","world")
@@ -118,9 +121,9 @@ Print :在同一个输出函数中处处多项的时候，hello和world中不存
 
 
 ```
- f.Println("hello","world","hello","world")
+ f.Print("hello","world","hello","world")
  
- f.Println("hello","world","hello","world")
+ f.Print("hello","world","hello","world")
  
  //输出
  
