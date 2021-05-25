@@ -23,20 +23,26 @@ type ListNode struct {
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	fmt.Println("star ....")
 	var com *ListNode
-	
+
 	if l1.Val < l2.Val {
 		com.Val = l1.Val
-		com.Next = l1.Next
-	
+		if l1.Next==nil {
+			com.Next=l2
+			return com
+		}
+		com.Next = mergeTwoLists(l1.Next, l2)
+
 	} else {
 		com.Val = l2.Val
-		com.Next = l2.Next
-		
+		if l2.Next==nil {
+			com.Next=l1
+			return com
+		}
+		com.Next = mergeTwoLists(l1, l2.Next)
 	}
-	
 	return com
 }
 
-func listNode()  {
-	
+func listNode() {
+
 }
