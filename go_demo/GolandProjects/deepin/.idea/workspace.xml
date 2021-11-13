@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc906bd2-d32b-43f7-b9de-d3efa6c4e309" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1tKNIsOkXTp6SRH0tGOLT6vugZp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build main2.go">
+    <configuration name="go build deepin" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="deepin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="deepin" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="deepin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="deepin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main2.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="deepin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="hello" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build deepin" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main2.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main2.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="120" width="805" height="548" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622966477028">
+      <screen x="0" y="0" width="1152" height="766" />
+    </state>
+    <state x="254" y="120" width="805" height="548" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1152.766@0.0.1152.766" timestamp="1622966477028" />
+    <state x="423" y="158" width="1073" height="723" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1012@0.0.1920.1012" timestamp="1622513800468" />
+    <state width="1084" height="289" key="GridCell.Tab.0.bottom" timestamp="1622983860008">
+      <screen x="0" y="0" width="1152" height="766" />
+    </state>
+    <state width="1084" height="289" key="GridCell.Tab.0.bottom/0.0.1152.766@0.0.1152.766" timestamp="1622983860008" />
+    <state width="1084" height="289" key="GridCell.Tab.0.center" timestamp="1622983860007">
+      <screen x="0" y="0" width="1152" height="766" />
+    </state>
+    <state width="1084" height="289" key="GridCell.Tab.0.center/0.0.1152.766@0.0.1152.766" timestamp="1622983860007" />
+    <state width="1084" height="289" key="GridCell.Tab.0.left" timestamp="1622983860007">
+      <screen x="0" y="0" width="1152" height="766" />
+    </state>
+    <state width="1084" height="289" key="GridCell.Tab.0.left/0.0.1152.766@0.0.1152.766" timestamp="1622983860007" />
+    <state width="1084" height="289" key="GridCell.Tab.0.right" timestamp="1622983860007">
+      <screen x="0" y="0" width="1152" height="766" />
+    </state>
+    <state width="1084" height="289" key="GridCell.Tab.0.right/0.0.1152.766@0.0.1152.766" timestamp="1622983860007" />
+    <state x="490" y="135" key="SettingsEditor" timestamp="1622513815414">
+      <screen x="0" y="0" width="1920" height="1012" />
+    </state>
+    <state x="490" y="135" key="SettingsEditor/0.0.1920.1012@0.0.1920.1012" timestamp="1622513815414" />
+  </component>
+</project>

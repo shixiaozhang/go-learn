@@ -1,0 +1,11 @@
+JS: 2021/06/05 19:30:29 1234
+JS: 2021/08/18 16:05:49.525729 C:/Users/86178/Desktop/GolandProjects/log_test/main.go:29: 1234
+JS: 2021/08/18 16:05:49.628962 C:/Users/86178/Desktop/GolandProjects/log_test/main.go:31: 1234
+JS: 2021/08/18 16:08:05 C:/Users/86178/Desktop/GolandProjects/log_test/main.go:28: 1234
+JS: 2021/08/18 16:08:05 C:/Users/86178/Desktop/GolandProjects/log_test/main.go:30: 1234
+JS: 2021/08/18 16:08:59 main.go:28: 1234
+JS: 2021/08/18 16:08:59 main.go:30: 1234
+2021/08/18 16:09:28 main.go:28: JS: 1234
+2021/08/18 16:09:28 main.go:30: JS: 1234
+JS: 2021/08/18 16:10:11 main.go:28: 1234
+JS: 2021/08/18 16:10:11 main.go:30: 1234

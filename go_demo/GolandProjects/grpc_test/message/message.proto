@@ -1,0 +1,30 @@
+syntax="proto3";
+
+package message;
+
+/* 运行
+protoc --go_out=. message.proto
+protoc ./message.proto --go_out=./
+ */
+
+// protoc --go_out=plugins=grpc:. message.proto  支持grpc框架的编译文件
+option go_package ="/";
+
+
+// 订单请求参数
+message OrderRequest{
+  string orderId=1;
+  int64 timeStamp=2;
+}
+
+// 订单信息
+message OrderInfo{
+  string OrderId=1;
+  string OrderName=2;
+  string OrderStatus=3;
+}
+
+// 订单服务service定义
+service OrderService{
+  rpc GetOrderInfo(OrderRequest) returns (OrderInfo);
+}
