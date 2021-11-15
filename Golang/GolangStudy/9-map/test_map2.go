@@ -31,9 +31,25 @@ func main() {
 	//修改
 	cityMap["USA"] = "DC"
 	ChangeValue(cityMap)
-
-	fmt.Println("-------")
-
 	//遍历
 	printMap(cityMap)
+
+	fmt.Println("-------")
+	// 集合操作（python中的字典）
+	//country:=make(map[string]string,10)
+	country := map[string]string{
+		"one": "nanjing",
+		"two": "shanghai",
+	}
+	country["Japan"] = "东京"
+	// 删除
+	delete(country, "Japan")
+	// 判断元素是否在集合中
+	capital, ok := country["American"]
+	if ok {
+		fmt.Println("American的首都是", capital)
+	} else {
+		fmt.Println("American首都不存在")
+	}
+
 }
