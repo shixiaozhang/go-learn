@@ -24,7 +24,7 @@ func main() {
 	// 创建两倍容量的切片
 	s2:=make([]int,len(s),(cap(s))*2)
 	copy(s2,s)
-	fmt.Println(s2,cap(s2))
+	fmt.Println("1",s2,cap(s2))
 
 	// range 返回key-value对 数组、切片、通道、集合
 	for k,v :=range s{
