@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	//===> 第一种声明方式
@@ -35,4 +38,10 @@ func main() {
 		"three": "python",
 	}
 	fmt.Println(myMap3)
+	var s, sep string
+	for _, v := range os.Args {
+		s += sep+"\n" + v
+		sep = ""
+	}
+	fmt.Println(s)
 }
