@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//声明一种行的数据类型 myint， 是int的一个别名
+//声明一种新的数据类型 myint， 是int的一个别名
 type myint int
 
 //定义一个结构体

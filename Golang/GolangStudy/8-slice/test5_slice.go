@@ -20,6 +20,7 @@ func main() {
 
 	//将s中的值 依次拷贝到s2中
 	copy(s2, s)
+	//按顺序拷贝，以长度小的为准
 	fmt.Println(s2)
 
 }
